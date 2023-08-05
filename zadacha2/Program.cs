@@ -23,4 +23,4 @@ else{
     max = Num2;
     min = Num1;
 }
-Console.WriteLine("большее = " + max + "   " + "меньшее = " + min);
+Console.WriteLine("большее = " + max + "    " + "меньшее = " + min);
