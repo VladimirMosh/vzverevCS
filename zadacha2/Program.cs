@@ -13,13 +13,14 @@ int Num2 = Convert.ToInt32(Console.ReadLine());
 int max = 0;
 int min = 0;
 
-if(Num1 > Num2)
+if (Num1 > Num2)
 {
     max = Num1;
     min = Num2;
 }
 
-else{
+else
+{
     max = Num2;
     min = Num1;
 }
