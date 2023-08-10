@@ -4,20 +4,20 @@
 // 1 -> нет.
 
 
-Console.Write("Введите цифру, обозначающую день недели: ");
+Console.Write("Введите день недели (цифра): ");
 int dayNum = Convert.ToInt32(Console.ReadLine());
 
 void CheckingDay(int dayNum)
 {
     if (dayNum == 6 || dayNum == 7)
     {
-        Console.WriteLine("этот день выходной - да");
+        Console.WriteLine("Наконец-то выходной");
     }
     else if (dayNum < 1 || dayNum > 7)
     {
-        Console.WriteLine("это вообще не день недели");
+        Console.WriteLine("это не день недели");
     }
-    else Console.WriteLine("этот день не выходной - нет");
+    else Console.WriteLine("этот день не выходной");
 }
 
 CheckingDay(dayNum);
