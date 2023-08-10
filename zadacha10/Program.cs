@@ -8,5 +8,5 @@
 
 Console.Write("Введи трёхзначное число- ");
 int threeDigitNum = Convert.ToInt32(Console.ReadLine());
-string stringNumber = Convert.ToString(threeDigitNum);
-Console.WriteLine("вторая цифра этого числа -> " + stringNumber[1]);
+string stringNum = Convert.ToString(threeDigitNum);
+Console.WriteLine("вторая цифра этого числа -> " + stringNum[1]);
